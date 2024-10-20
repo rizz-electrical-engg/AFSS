@@ -21,7 +21,7 @@ API_HASH = environ.get("API_HASH", "e469e84c943ce3b8b056eb6a296f2c67")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7767018611:AAFJ07FhcTmlUVdqAWG5EOLX03cSVLbOb1w")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '833465134').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Oroorooro_bot") # without @
 PORT = environ.get("PORT", "5080")
 
@@ -65,7 +65,7 @@ VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/How_To_Open_Linkl
 WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-WEBSITE_URL = environ.get("WEBSITE_URL", "http://mycloudy.biz.id") # For More Information Check Video On Yt - @Tech_VJ
+WEBSITE_URL = environ.get("WEBSITE_URL", "https://real-thia-rizzz-6e01c624.koyeb.app") # For More Information Check Video On Yt - @Tech_VJ
 
 # File Stream Config
 STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
